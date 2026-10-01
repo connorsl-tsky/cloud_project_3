@@ -1,7 +1,7 @@
 # cloud_project_3
 docker
 
-docker build -t cloud-proj-3 .
+docker build -t cloud-proj-3 .  
 docker run --name cloud-proj-3 cloud-proj-3 
 
 see image size  

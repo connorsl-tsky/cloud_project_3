@@ -1,18 +1,11 @@
-"""
-*Count the total number of words in each text file located at /home/data
-*Calculate the grand total of words across both files (IF + Always)
-*Identify the top 3 most frequent words and their respective counts in IF
-*Handle contractions (Examples: I'm, can't, don't) by splitting them into individual words, then find the top 3 most frequent words and their respective counts in  AlwaysRememberUsThisWay
-*Determine the IP address of the machine running the container
-Write the results to a text file at /home/data/output/result.txt. When the container is executed, it should print the contents of result.txt to the console before exiting
-"""
+import socket
+
 INPUT_DIR = "/home/data/"
 OUTPUT_DIR = "/home/output/"
 
 FILE_IF = "IF.txt"
 FILE_ALWAYS = "AlwaysRememberUsThisWay.txt"
 
-import socket
 
 contractions = {
     "it's": "it is",
