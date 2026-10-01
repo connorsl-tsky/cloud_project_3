@@ -1,0 +1,5 @@
+- screenshot of docker desktop running containers
+- upload dockerfile
+- upload scripts.py
+- less than 200mb docker image
+- submit tar file of final image
